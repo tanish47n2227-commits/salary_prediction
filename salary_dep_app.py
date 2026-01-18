@@ -8,8 +8,9 @@ Original file is located at
 """
 
 import streamlit as st
-import pandas as pd
 import joblib
+import pandas as pd
+
 
 model = joblib.load("model.pkl")
 encoders = joblib.load("label_encoders_sp.pkl")
